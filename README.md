@@ -4,7 +4,7 @@
 
 ## dev
 
-1. install nodejs
+1. install nodejs,use https://nodejs.org/en/
 1. ```npm i```, install dependency
 1. edit docs
 1. run build js
