@@ -5,14 +5,15 @@
 ## dev
 
 1. install nodejs
-1. ```npm i```
+1. ```npm i```, install dependency
 1. edit docs
 1. run build js
+1. run ```npm start```, start local dev server, use http://localhost:3000 access that
 
 ## build
 
 ```bash
-npm run postinstall
+npm run build
 ```
 
 ## deploy

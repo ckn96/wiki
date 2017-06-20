@@ -1,11 +1,12 @@
 {
   "name": "wiki",
-  "description": "Wiki of Suntao",
+  "description": "Wiki of Kaini",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/nano-server/nano-server 3000 ./wikifile",
-    "postinstall": "cd wikifile && node build.js"
+    "postinstall": "cd wikifile && node build.js",
+	"build": "cd wikifile && node build.js"
   },
   "dependencies": {
     "capitalize": "^1.0.0",
@@ -16,13 +17,5 @@
   "keywords": [
     "wiki"
   ],
-  "license": "MIT",
-  "author": {
-    "name": "Theo Sun",
-    "email": "theo.sun@outlook.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Soontao/wiki"
-  }
+  "license": "Apache-2.0"
 }
